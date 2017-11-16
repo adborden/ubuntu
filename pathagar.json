@@ -1,0 +1,19 @@
+{
+  "_comment": "Based on ubuntu1604-desktop template. Build with `packer build -var-file=pathagar.json ubuntu.json`",
+  "vm_name": "ubuntu1604-desktop",
+  "desktop": "true",
+  "locale": "en_US.UTF-8",
+  "cpus": "1",
+  "disk_size": "130048",
+  "iso_checksum": "f3532991e031cae75bcf5e695afb844dd278fff9",
+  "iso_checksum_type": "sha1",
+  "iso_name": "ubuntu-16.04.3-server-amd64.iso",
+  "iso_url": "http://releases.ubuntu.com/16.04/ubuntu-16.04.3-server-amd64.iso",
+  "memory": "1024",
+  "preseed": "preseed.cfg",
+  "hostname": "pathagar",
+  "ssh_fullname": "pathagar",
+  "ssh_password": "pathagar",
+  "ssh_username": "pathagar",
+  "vagrantfile_template": "tpl/vagrantfile-ubuntu1604-desktop.tpl"
+}
